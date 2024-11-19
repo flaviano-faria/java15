@@ -16,4 +16,19 @@ public class Service {
         String message = "Testing formatted string %s with java version %d".formatted(name, javaVersion);
         System.out.println(message);
     }
+
+    public void stripIndentString(){
+        String block = """
+  This is a strip string text
+    using java 15
+   features                
+                """;
+        System.out.println(block.stripIndent());
+    }
+
+    public void stringTranslateScapes(){
+        String block = """
+                
+                        """;
+    }
 }

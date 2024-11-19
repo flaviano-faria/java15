@@ -11,5 +11,6 @@ public class Main {
 
         service.stringFormatted();
 
+        service.stripIndentString();
     }
 }
