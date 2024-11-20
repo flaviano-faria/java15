@@ -28,7 +28,10 @@ public class Service {
 
     public void stringTranslateScapes(){
         String block = """
-                
+            This is a \\n text translated    
                         """;
+
+        String translated = block.translateEscapes();
+        System.out.println(translated);
     }
 }

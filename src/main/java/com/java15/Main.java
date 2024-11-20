@@ -12,5 +12,6 @@ public class Main {
         service.stringFormatted();
 
         service.stripIndentString();
+        service.stringTranslateScapes();
     }
 }
